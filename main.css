@@ -69,4 +69,29 @@ html {
 .btn:hover {
   color: black;
   transform: scale(1.2);
+}
+
+@media only screen and (max-width: 999) {
+  html {
+    font-size: 58%;
+  }
+  .section {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 799px) {
+  html {
+    font-size: 55%;
+  }
+  .section {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 599) {
+  html {
+    font-size: 50%;
+  }
+  .section {
+    max-width: 80%;
+  }
 }/*# sourceMappingURL=main.css.map */

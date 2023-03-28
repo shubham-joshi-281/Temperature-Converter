@@ -16,7 +16,7 @@ html {
   justify-content: center;
 }
 .section {
-  max-width: 80%;
+ max-width: 80%;
   border: 2px solid rgb(133, 132, 132);
   box-shadow: 3px 3px 10px 2px rgb(206, 156, 241);
   padding: 2rem;
@@ -60,4 +60,30 @@ html {
 .btn:hover {
   color: black;
   transform: scale(1.2);
+}
+@media only screen and (max-width:999){
+  html{
+    font-size: 58%;
+  }
+  .section{
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width:799px){
+  html{
+    font-size: 55%;
+
+  }
+  .section{
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width:599){
+  html{
+    font-size: 50%;
+
+  }
+  .section{
+    max-width: 80%;
+  }
 }
