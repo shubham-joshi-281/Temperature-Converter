@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="section">
+        <!-- Fahernheit to celcius section starts -->
+        <h2 class="primary-heading">convert Celsius to Fahernheit</h2>
+        <div class="input">
+          <label for="Celsius">Celsius</label>
+          <input
+            type="number"
+            name="Celsius"
+            id="cel"
+            value="0"
+            class="in"
+            autofocus
+            required
+          />
+          <label for="Fahernheit">Fahernheit</label>
+          <input
+            type="number"
+            name="Fahernheit"
+            id="res"
+            value="32"
+            class="in"
+            required
+          />
+        </div>
+        <div class="button">
+          <button class="btn" onclick="celTofeh()">convert</button>
+        </div>
+        <!-- Celsius to Fahernheit section -->
+        <h2 class="primary-heading">convert Fahernheit to calcius</h2>
+        <div class="input">
+          <label for="Fahernheit">Fahernheit</label>
+          <input
+            type="number"
+            name="Fahernheit"
+            id="feh"
+            value="0"
+            class="in"
+            required
+          />
+          <label for="Celsius">Celsius</label>
+          <input
+            type="number"
+            name="Celsius"
+            id="res1"
+            value="0"
+            class="in"
+            required
+          />
+        </div>
+        <div class="button">
+          <button class="btn" onclick="fehTocel()">convert</button>
+        </div>
+      </div>
+    </section>
+    <!-- script file added -->
+    <script src="./script.js"></script>
+  </body>
+</html>
